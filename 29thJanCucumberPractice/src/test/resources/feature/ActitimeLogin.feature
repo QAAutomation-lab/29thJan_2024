@@ -1,5 +1,6 @@
 Feature: Actitime application login test
 
+@Smoke
 Scenario: Validate Actitime login flow with valid user
 Given user in on actitime login page
 When user enters valid username as "admin01"
@@ -8,6 +9,7 @@ And user clicks on login button
 Then user should navigate to Actitime Home page with title "actiTIME - Licenses"
 And user close the browser
 
+@Regression
 Scenario: Validate Actitime login flow with invalid user
 Given user in on actitime login page
 When user enters valid username as "admin01"

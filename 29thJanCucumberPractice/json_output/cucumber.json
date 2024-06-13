@@ -1,0 +1,562 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-13T03:26:52.731Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4987600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.HooksExample.starUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Trying to search Selenium Interview Questions in Google",
+        "description": "",
+        "id": "trying-to-search-something-in-google;trying-to-search-\u003ctexttobesearched\u003e-in-google;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.HooksExample.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5154608200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.beforeSteps()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User is already on google search page",
+            "match": {
+              "location": "stepdef.GoogleSearchStepDef.user_has_already_on_google_search_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 5982900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2191857500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.beforeSteps()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user types Selenium Interview Questions in search input field and press enter key",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium Interview Questions",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdef.GoogleSearchStepDef.user_types_in_search_input_field_and_press_enter_key(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1343839200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1996200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.beforeSteps()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "User should able to get result page with title having Selenium Interview Questions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium Interview Questions",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdef.GoogleSearchStepDef.user_should_able_to_get_result_page_with_title_having(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 408809500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1995000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.beforeSteps()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "user close the browser",
+            "match": {
+              "location": "stepdef.ActitimeLoginTest.user_close_the_browser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-13T03:27:01.996Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1985800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.HooksExample.starUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Trying to search Manual Testing Questions in Google",
+        "description": "",
+        "id": "trying-to-search-something-in-google;trying-to-search-\u003ctexttobesearched\u003e-in-google;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.HooksExample.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4037245700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 991400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.beforeSteps()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User is already on google search page",
+            "match": {
+              "location": "stepdef.GoogleSearchStepDef.user_has_already_on_google_search_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1995200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 684681100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.beforeSteps()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user types Manual Testing Questions in search input field and press enter key",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manual Testing Questions",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdef.GoogleSearchStepDef.user_types_in_search_input_field_and_press_enter_key(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1346195100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1004200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.beforeSteps()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "User should able to get result page with title having Manual Testing Questions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manual Testing Questions",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdef.GoogleSearchStepDef.user_should_able_to_get_result_page_with_title_having(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 989800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 334620200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.beforeSteps()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "user close the browser",
+            "match": {
+              "location": "stepdef.ActitimeLoginTest.user_close_the_browser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 995700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-13T03:27:08.459Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4003100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.HooksExample.starUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Trying to search API testing question in Google",
+        "description": "",
+        "id": "trying-to-search-something-in-google;trying-to-search-\u003ctexttobesearched\u003e-in-google;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.HooksExample.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4169290200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.beforeSteps()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User is already on google search page",
+            "match": {
+              "location": "stepdef.GoogleSearchStepDef.user_has_already_on_google_search_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 523143300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.beforeSteps()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user types API testing question in search input field and press enter key",
+            "match": {
+              "arguments": [
+                {
+                  "val": "API testing question",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdef.GoogleSearchStepDef.user_types_in_search_input_field_and_press_enter_key(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1470020900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.beforeSteps()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "User should able to get result page with title having API testing question",
+            "match": {
+              "arguments": [
+                {
+                  "val": "API testing question",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdef.GoogleSearchStepDef.user_should_able_to_get_result_page_with_title_having(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 426316200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.beforeSteps()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "user close the browser",
+            "match": {
+              "location": "stepdef.ActitimeLoginTest.user_close_the_browser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdef.HooksExample.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Trying to Search something in Google",
+    "description": "",
+    "id": "trying-to-search-something-in-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/GoogleSearch.feature",
+    "tags": []
+  }
+]

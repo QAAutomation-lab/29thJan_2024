@@ -1,0 +1,5 @@
+webpages\VtigerHomePage.class
+webpages\VtigerLoginPage.class
+runner\TestRunner.class
+stepdef\VtigerLeadStepDef.class
+webpages\VtigerLeadsPage.class

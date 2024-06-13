@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="36.87">
+    <testcase classname="Create lead in Vtiger application" name="Create new lead with name as QA" time="20.261">
+        <system-out><![CDATA[Given user already in login page............................................passed
+And user login successfully with valid data.................................passed
+And click on navigation bar.................................................passed
+And go to Marketing and select Leads........................................passed
+When click on Add Leads button and enter firstname as QA ,last as Champak ,number as 123 and click on save button.passed
+And click on All link.......................................................passed
+Then varify lead is created with Champak....................................passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Create lead in Vtiger application" name="Update lead and validate it" time="0">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
+    </testcase>
+    <testcase classname="Create lead in Vtiger application" name="Delete all leads and validate it" time="15.619">
+        <system-out><![CDATA[Given user already in login page............................................passed
+And user login successfully with valid data.................................passed
+And click on navigation bar.................................................passed
+And go to Marketing and select Leads........................................passed
+When click on newly created lead checkbox...................................passed
+And click on delete logo....................................................passed
+And user will get a popup to comfirm deletion, select Yes...................passed
+Then varify that newly created lead QA is deleted...........................passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,5 +1,6 @@
 Feature: OrangeHRM application login test
 
+@Regression
   Scenario Outline: Validate OrangeHRM login flow with <flow> user
     Given user in on OrangeHRM login page
     When user enters valid username as <username> in the OrangeHRM login

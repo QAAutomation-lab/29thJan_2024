@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="22.942">
+    <testcase classname="Trying to Search something in Google" name="Trying to search Selenium Interview Questions in Google" time="9.184">
+        <system-out><![CDATA[Given User is already on google search page.................................passed
+When user types Selenium Interview Questions in search input field and press enter key.passed
+Then User should able to get result page with title having Selenium Interview Questions.passed
+And user close the browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Trying to Search something in Google" name="Trying to search Manual Testing Questions in Google" time="6.425">
+        <system-out><![CDATA[Given User is already on google search page.................................passed
+When user types Manual Testing Questions in search input field and press enter key.passed
+Then User should able to get result page with title having Manual Testing Questions.passed
+And user close the browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Trying to Search something in Google" name="Trying to search API testing question in Google" time="6.615">
+        <system-out><![CDATA[Given User is already on google search page.................................passed
+When user types API testing question in search input field and press enter key.passed
+Then User should able to get result page with title having API testing question.passed
+And user close the browser..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
